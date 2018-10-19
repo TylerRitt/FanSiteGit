@@ -1,7 +1,9 @@
 ﻿
 @model IEnumerable<Stories>
 
-
+@{ 
+    Layout = null;
+}
 
  
 
@@ -15,10 +17,10 @@
 
     @foreach (Stories s in Model)
     {
-
-        @s.Name; <br />
-        @s.Story; <br />
-        <br />
+        <h2>@s?.Name;</h2><br />
+        
+            @s?.Story; <br />
+        
     }
 
     <br>

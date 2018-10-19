@@ -11,6 +11,12 @@ namespace FanSite.Models
 
         public static List<Stories> Stories { get { return stories; } }
         
+        static StoriesRepo()
+        {
+            AddData();
+        }
+
+
         public static void AddStory(Stories story)
         {
             stories.Add(story);
