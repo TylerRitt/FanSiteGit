@@ -1,0 +1,27 @@
+﻿
+@model IEnumerable<Stories>
+
+
+
+ 
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Stories and Reviews </title>
+</head>
+<body>
+    List of Stories:
+
+    @foreach (Stories s in Model)
+    {
+
+        @s.Name; <br />
+        @s.Story; <br />
+        <br />
+    }
+
+    <br>
+    <a href="/Home">Home</a>
+</body>
+</html>
