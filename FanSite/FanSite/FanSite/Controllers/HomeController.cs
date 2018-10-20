@@ -52,6 +52,22 @@ namespace FanSite.Controllers
                 };
 
                 StoriesRepo.AddStory(story);
+
+
+
+                Comment comment = new Comment()
+                {
+                    AStoriesComments = "Steve jobs was very wealthy"
+                };
+
+                story.Comments.Add(comment);
+
+                
+
+
+                
+
+
             }
         }
 

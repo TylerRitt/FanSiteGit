@@ -12224,11 +12224,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tyler\\Desktop\\FanSite\\FanSite\\FanSite\\FanSite.csproj",
+      "projectUniqueName": "C:\\Users\\Tyler\\Desktop\\FanSiteGit\\FanSite\\FanSite\\FanSite\\FanSite.csproj",
       "projectName": "FanSite",
-      "projectPath": "C:\\Users\\Tyler\\Desktop\\FanSite\\FanSite\\FanSite\\FanSite.csproj",
+      "projectPath": "C:\\Users\\Tyler\\Desktop\\FanSiteGit\\FanSite\\FanSite\\FanSite\\FanSite.csproj",
       "packagesPath": "C:\\Users\\Tyler\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tyler\\Desktop\\FanSite\\FanSite\\FanSite\\obj\\",
+      "outputPath": "C:\\Users\\Tyler\\Desktop\\FanSiteGit\\FanSite\\FanSite\\FanSite\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -5,14 +5,13 @@ using System.Threading.Tasks;
 
 namespace FanSite.Models
 {
-    public class Stories
+    public class User
     {
-        private List<Stories> story = new List<Stories>();
         private List<Comment> comments = new List<Comment>();
-        public string Name { get; set; }
-        public string Story { get; set; }
 
-        public List<Stories> SavedStories { get { return story; } }
+        public string Name { get; set; }
+        public string Email { get; set; }
+
         public List<Comment> Comments { get { return comments; } }
 
     }

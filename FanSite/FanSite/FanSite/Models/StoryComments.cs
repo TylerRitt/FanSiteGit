@@ -5,14 +5,10 @@ using System.Threading.Tasks;
 
 namespace FanSite.Models
 {
-    public class Comment
+    public class StoryComments
     {
-        public string AStoriesComments { get; set; }
-
+        public string TextOfComment { get; set; }
         public User UserName { get; set; }
-        public Comment UserComment { get; set; }
-
-
 
     }
 }
