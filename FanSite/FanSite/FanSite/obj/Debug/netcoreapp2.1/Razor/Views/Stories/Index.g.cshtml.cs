@@ -66,7 +66,7 @@ using FanSite.Models;
             WriteLiteral("\r\n<!DOCTYPE html>\r\n<html>\r\n");
             EndContext();
             BeginContext(88, 57, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cd8bf95e0d704ef2b1a5baf7c877cc2e", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "30d8aecc7ef046df9d158971f7edc1e7", async() => {
                 BeginContext(94, 44, true);
                 WriteLiteral("\r\n    <title> Stories and Reviews </title>\r\n");
                 EndContext();
@@ -86,7 +86,7 @@ using FanSite.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(147, 389, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cda2b3768d284e3391945d110e61863b", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bbed611cd1374142989409197f27799d", async() => {
                 BeginContext(153, 26, true);
                 WriteLiteral("\r\n    List of Stories:\r\n\r\n");
                 EndContext();

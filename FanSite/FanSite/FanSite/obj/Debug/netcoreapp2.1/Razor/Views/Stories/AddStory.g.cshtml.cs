@@ -66,7 +66,7 @@ using FanSite.Models;
             WriteLiteral("\r\n<html>\r\n");
             EndContext();
             BeginContext(55, 47, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3e86b875bc8c4824943e59b955c965fe", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "11b9515948654824a71c74ac50b1480e", async() => {
                 BeginContext(61, 34, true);
                 WriteLiteral("\r\n    <title>Add a Story</title>\r\n");
                 EndContext();
@@ -86,12 +86,12 @@ using FanSite.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(104, 343, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0f24c660b4e94743aab1ee44d65af869", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "415819096c684dbfa8839ba00c060ecc", async() => {
                 BeginContext(110, 6, true);
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(116, 263, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0ccc4bf0defd4a7c9447569a7eb559a3", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2972d8a2ff1b48cc90d888403e298349", async() => {
                     BeginContext(136, 236, true);
                     WriteLiteral("\r\n        <label for=\"name\">Title</label>\r\n        <br />\r\n        <input name=\"name\" /><br />\r\n       \r\n        <textarea for=\"story\">Story</textarea><br />\r\n        <br />\r\n        \r\n        <input type=\"submit\" value=\"Enter\" />\r\n    ");
                     EndContext();
