@@ -13,27 +13,29 @@
 <body>
     List of Stories:
 
+
     @foreach (Stories s in Model)
     {
         <h2>@s.Name;</h2><br />
 
         @s.Story; <br />
-
         <b>Comments</b>
         <br />
         @foreach (Comment c in s.Comments)
         {
             @s.Comments; <br />
+
+
         }
+        <br />
+        string url = "AddComment" + "?title" + s.Comments;
+        <a href="@url">Add A Comment!</a>
 
     }
-
-
-
-
 
     <br>
     <a href="/Home">Home</a>
     <a href="/Sources">Sources and Links</a>
+    
 </body>
 </html>

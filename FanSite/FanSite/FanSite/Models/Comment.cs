@@ -14,6 +14,7 @@ namespace FanSite.Models
         public User UserName { get; set; }
         public Comment UserComment { get; set; }
         
+        public List<Comment> Comments { get { return comment; } }
 
 
 

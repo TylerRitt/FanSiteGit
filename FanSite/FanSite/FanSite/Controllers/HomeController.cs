@@ -12,12 +12,7 @@ namespace FanSite.Controllers
     {
        public IActionResult Index()
         {
-            List<Stories> story = StoriesRepo.Stories;
-            story.Sort((s1, s2) => string.Compare(s1.Name, s2.Name, StringComparison.Ordinal));
-            /*ViewBag.newestStory = story[story.Count - 1].Name;
-            ViewData["StoriesCount"] = story.Count;*/
-           
-            return View(story);
+            return View();
         }
 
         public IActionResult AddStory()
@@ -38,42 +33,5 @@ namespace FanSite.Controllers
 
             return View();
         }
-
-        
-
-        public void StoriesController()
-        {
-            /*if (StoriesRepo.Stories.Count == 0)
-            {
-                story = new Stories()
-                {
-                    Name = "The legend of Steve Jobs",
-                    Story = "Steve Jobs Was CEO of Apple"
-                };
-
-                StoriesRepo.AddStory(story);
-
-
-
-                Comment comment = new Comment()
-                {
-                    AStoriesComments = "Steve jobs was very wealthy"
-                };
-
-                story.Comments.Add(comment);
-
-            }*/
-        }
-
-
-        [HttpPost]
-        public RedirectToActionResult AddStory(string name, string story)
-        {
-            Stories stories = new Stories { Name = name, Story = story };
-            StoriesRepo.AddStory(stories);
-
-            return RedirectToAction("Index");
-        }  
-        
     }
 }

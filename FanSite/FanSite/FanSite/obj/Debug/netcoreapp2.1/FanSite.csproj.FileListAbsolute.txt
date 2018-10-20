@@ -65,3 +65,4 @@ C:\Users\Tyler\Desktop\FanSiteGit\FanSite\FanSite\FanSite\obj\Debug\netcoreapp2.
 C:\Users\Tyler\Desktop\FanSiteGit\FanSite\FanSite\FanSite\obj\Debug\netcoreapp2.1\Razor\Views\Stories\AddStory.g.cshtml.cs
 C:\Users\Tyler\Desktop\FanSiteGit\FanSite\FanSite\FanSite\obj\Debug\netcoreapp2.1\Razor\Views\Stories\Index.g.cshtml.cs
 C:\Users\Tyler\Desktop\FanSiteGit\FanSite\FanSite\FanSite\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\Tyler\Desktop\FanSiteGit\FanSite\FanSite\FanSite\obj\Debug\netcoreapp2.1\Razor\Views\Stories\AddComment.g.cshtml.cs

@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewData["Title"] = "AddComment";
+}
+<html>
+    <head>
+        <title>Add a Comment!</title>
+    </head>
+    <body>
+        <h3>Comment for <em>@Model</em></h3>
+        <form method="post">
+            <label for="story">Comment Title</label>
+            <br />
+            <input name="story" /><br />
+            <textarea for="commentText">Comment</textarea>
+            <br />
+            <input type="submit" value="Submit Comment" />
+
+        </form>
+    </body>
+
+</html>
