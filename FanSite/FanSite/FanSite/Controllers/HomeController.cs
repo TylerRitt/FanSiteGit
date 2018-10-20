@@ -39,11 +39,11 @@ namespace FanSite.Controllers
             return View();
         }
 
-        Stories story;
+        
 
         public void StoriesController()
         {
-            if (StoriesRepo.Stories.Count == 0)
+            /*if (StoriesRepo.Stories.Count == 0)
             {
                 story = new Stories()
                 {
@@ -62,13 +62,7 @@ namespace FanSite.Controllers
 
                 story.Comments.Add(comment);
 
-                
-
-
-                
-
-
-            }
+            }*/
         }
 
 

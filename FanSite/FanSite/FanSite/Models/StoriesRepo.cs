@@ -45,6 +45,32 @@ namespace FanSite.Models
                 Story = "Apple was created in 1976"
             };
             Stories.Add(story);
+
+            story = new Stories()
+            {
+                Name = "The legend of Steve Jobs",
+                Story = "Steve Jobs Was CEO of Apple"
+            };
+
+            Stories.Add(story);
+
+
+
+            Comment comment = new Comment()
+            {
+                AStoriesComments = "Steve jobs was very wealthy"
+            };
+
+            story.Comments.Add(comment);
+
+            Comment newComment = new Comment()
+            {
+                AStoriesComments = "A Random Comment"
+            };
+
+
+            story.Comments.Add(newComment);
+
         }
 
     }

@@ -1,0 +1,39 @@
+﻿
+@model IEnumerable<Stories>
+
+@{ 
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Stories and Reviews </title>
+</head>
+<body>
+    List of Stories:
+
+    @foreach (Stories s in Model)
+    {
+        <h2>@s.Name;</h2><br />
+
+        @s.Story; <br />
+
+        <b>Comments</b>
+        <br />
+        @foreach (Comment c in s.Comments)
+        {
+            @s.Comments; <br />
+        }
+
+    }
+
+
+
+
+
+    <br>
+    <a href="/Home">Home</a>
+    <a href="/Sources">Sources and Links</a>
+</body>
+</html>

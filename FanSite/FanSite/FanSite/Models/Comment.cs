@@ -7,10 +7,13 @@ namespace FanSite.Models
 {
     public class Comment
     {
+        private List<Comment> comment = new List<Comment>();
+
         public string AStoriesComments { get; set; }
 
         public User UserName { get; set; }
         public Comment UserComment { get; set; }
+        
 
 
 

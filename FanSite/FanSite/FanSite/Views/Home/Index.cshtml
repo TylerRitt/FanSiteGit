@@ -1,39 +1,29 @@
 ﻿
-@model IEnumerable<Stories>
-
-@{ 
-    Layout = null;
+@{
+    ViewData["Title"] = "Index";
 }
-
- 
 
 <!DOCTYPE html>
 <html>
 <head>
-    <title> Stories and Reviews </title>
+    <title>FanSite!</title>
 </head>
 <body>
-    List of Stories:
-
-    @foreach (Stories s in Model)
-    {
-        <h2>@s?.Name;</h2><br />
-
-        @s?.Story; <br />
-
-        <b>Comments</b>
-        @foreach (Comment c in s.Comments)
-        {
-            @s.Comments;
-        }
-
-    }
-
-
-
-
-
-    <br>
-    <a href="/Home">Home</a>
+    <h1>Read some Iconic Stories!</h1>
+    
+    
+    <p>
+        Do you have any stories to tell about our Icon?
+        <a href="Stores/AddStory">post a Story!</a><br />
+        Look at the comments!
+        <a href="Stories/Index">Check Comments!</a>
+    </p>
+    <nav>
+        <h3>Navigation:</h3>
+        <a href="Home/History">Some History about or Icon!</a><br />
+        
+        
+    </nav>
 </body>
 </html>
+
