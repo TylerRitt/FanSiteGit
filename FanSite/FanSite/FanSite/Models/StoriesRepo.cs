@@ -41,14 +41,14 @@ namespace FanSite.Models
 
             story = new Stories()
             {
-                Name = "The creation of apple",
+                Name = "The Creation of Apple",
                 Story = "Apple was created in 1976"
             };
             Stories.Add(story);
 
             story = new Stories()
             {
-                Name = "The legend of Steve Jobs",
+                Name = "The Legend of Steve Jobs",
                 Story = "Steve Jobs Was CEO of Apple"
             };
 
@@ -58,7 +58,7 @@ namespace FanSite.Models
 
             Comment comment = new Comment()
             {
-                AStoriesComments = "Steve jobs was very wealthy"
+                AStoriesComments = "Super generic comment"
             };
 
             story.Comments.Add(comment);

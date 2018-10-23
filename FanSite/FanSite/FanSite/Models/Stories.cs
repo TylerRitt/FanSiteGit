@@ -10,6 +10,7 @@ namespace FanSite.Models
         private List<Stories> story = new List<Stories>();
         private List<Comment> comments = new List<Comment>();
         public string Name { get; set; }
+
         public string Story { get; set; }
 
         public List<Stories> SavedStories { get { return story; } }

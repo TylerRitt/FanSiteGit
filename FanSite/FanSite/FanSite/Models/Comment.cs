@@ -11,9 +11,6 @@ namespace FanSite.Models
 
         public string AStoriesComments { get; set; }
 
-        public User UserName { get; set; }
-        public Comment UserComment { get; set; }
-        
         public List<Comment> Comments { get { return comment; } }
 
 

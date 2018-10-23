@@ -9,14 +9,17 @@ namespace FanSite.Models
     {
        private static List<Comment> comments = new List<Comment>();
 
-        public static List<Comment> Comments { get { return comments; }}
-
+       public static List<Comment> Comments { get { return comments; }}
 
         static CommentRepo()
         {
             AddData();
         }
 
+        public static void AddComment(Comment comment)
+        {
+            comments.Add(comment);
+        }
 
         static void AddData()
         {
@@ -27,12 +30,7 @@ namespace FanSite.Models
                 AStoriesComments = "Some comments and stuff"
             };
 
-            comment.Comments.Add(comment);
-
-
-            
+            comment.Comments.Add(comment);       
         }
-
-
     }
 }
