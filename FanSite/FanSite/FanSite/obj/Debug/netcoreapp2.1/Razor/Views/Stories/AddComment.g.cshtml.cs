@@ -66,7 +66,7 @@ using FanSite.Models;
             WriteLiteral("<html>\r\n    ");
             EndContext();
             BeginContext(57, 58, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "61dd266091d74875b9c49a4e4b8ad5f9", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5e17a9b60ec7484e8374e5456561ee8a", async() => {
                 BeginContext(63, 45, true);
                 WriteLiteral("\r\n        <title>Add a Comment!</title>\r\n    ");
                 EndContext();
@@ -86,7 +86,7 @@ using FanSite.Models;
             WriteLiteral("\r\n    ");
             EndContext();
             BeginContext(121, 370, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "eba8fd250194451da2ce232320317ab3", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bd913e106fe24948acde2ddf29ce7d6a", async() => {
                 BeginContext(127, 30, true);
                 WriteLiteral("\r\n        <h3>Comment for <em>");
                 EndContext();
@@ -101,7 +101,7 @@ using FanSite.Models;
                 WriteLiteral("</em></h3>\r\n        ");
                 EndContext();
                 BeginContext(183, 295, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4b0714e8c7a94fcb85d28c72370c6661", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "08a2cc1d4989400a8c9c92d10075b0b2", async() => {
                     BeginContext(203, 268, true);
                     WriteLiteral(@"
             <label for=""story"">Comment Title</label>

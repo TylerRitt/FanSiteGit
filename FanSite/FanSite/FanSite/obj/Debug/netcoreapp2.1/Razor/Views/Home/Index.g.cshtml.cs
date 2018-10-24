@@ -63,7 +63,7 @@ using FanSite.Models;
             WriteLiteral("\r\n<!DOCTYPE html>\r\n<html>\r\n");
             EndContext();
             BeginContext(70, 44, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a0adf2b5f3b6466f981df4a8e6051fcc", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "40e5288b3353400f9a7c6b29b9b7ed73", async() => {
                 BeginContext(76, 31, true);
                 WriteLiteral("\r\n    <title>FanSite!</title>\r\n");
                 EndContext();
@@ -83,7 +83,7 @@ using FanSite.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(116, 599, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e59da81704844d6f9871c6d38001aa67", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "31d48f3c39bc4b5ca93d300b8ce36f93", async() => {
                 BeginContext(122, 586, true);
                 WriteLiteral(@"
     <h3>Read some Iconic Stories!</h3>

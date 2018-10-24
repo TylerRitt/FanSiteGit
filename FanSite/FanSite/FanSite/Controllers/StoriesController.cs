@@ -13,19 +13,27 @@ namespace FanSite.Controllers
         public IActionResult Index()
         {
             List<Stories> story = StoriesRepo.Stories;
+            // Lambda sort
             story.Sort((s1, s2) => string.Compare(s1.Name, s2.Name, StringComparison.Ordinal));
-            /*ViewBag.newestStory = story[story.Count - 1].Name;
-            ViewData["StoriesCount"] = story.Count;*/
+            // view bag one
+            ViewBag.newestStory = story[story.Count - 1].Name;
+            // my view data for lab3
+            ViewData["StoriesCount"] = story.Count;
 
             return View(story);
            
         }
-
+        // returns add story view
         public IActionResult AddStory()
         {
             return View();
         }
-
+        // returns add comment view
+        public IActionResult AddComment()
+        {
+            return View();
+        }
+        // post request for adding a story 
         [HttpPost]
         public RedirectToActionResult AddStory(string name, string story)
         {
@@ -34,7 +42,15 @@ namespace FanSite.Controllers
 
             return RedirectToAction("Index");
         }
+        // post request for adding a comment
+        [HttpPost]
+        public RedirectToActionResult AddComment(string commentText)
+        {
+            Comment stories = new Comment { AStoriesComments = commentText };
+            CommentRepo.AddComment(stories);
 
+            return RedirectToAction("Index");
+        }
 
     }
 }

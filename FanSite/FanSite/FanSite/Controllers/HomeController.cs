@@ -14,7 +14,7 @@ namespace FanSite.Controllers
         {
             return View();
         }
-
+        
         public IActionResult AddStory()
         {
             return View();

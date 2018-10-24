@@ -16,11 +16,13 @@ namespace FanSite.Models
             AddData();
         }
 
+        // Adds comments to the list in our comment class
         public static void AddComment(Comment comment)
         {
-            comments.Add(comment);
+            Comments.Add(comment);
         }
 
+        // Hard coded data for comments
         static void AddData()
         {
             Comment comment;

@@ -19,13 +19,13 @@ namespace FanSite.Controllers
             return View();
         }
 
-        [HttpPost]
+        /*[HttpPost]
         public RedirectToActionResult AddComment(string commentText)
         {
             Comment stories = new Comment { AStoriesComments = commentText };
             CommentRepo.AddComment(stories);    
 
             return RedirectToAction("Index");
-        }
+        }*/
     }
 }

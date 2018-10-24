@@ -66,7 +66,7 @@ using FanSite.Models;
             WriteLiteral("\r\n<html>\r\n");
             EndContext();
             BeginContext(55, 47, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4ed0d685592349e184355decfda7a8d7", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "81a76bc991424f06be40a12e27e9f7e5", async() => {
                 BeginContext(61, 34, true);
                 WriteLiteral("\r\n    <title>Add a Story</title>\r\n");
                 EndContext();
@@ -86,12 +86,12 @@ using FanSite.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(104, 401, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7b80ad79997949418264d3463d2a8ffa", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "74a39ecdbf054d86bda471f1230aae8a", async() => {
                 BeginContext(110, 6, true);
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(116, 303, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5185bff8e61d413c8cfe945870052386", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6abe1f21243d42789e87104489f21a4a", async() => {
                     BeginContext(136, 276, true);
                     WriteLiteral(@"
         <label for=""name"">Story Title</label>
