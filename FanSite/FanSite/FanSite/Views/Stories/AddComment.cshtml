@@ -1,18 +1,27 @@
 ﻿
+@*One ViewData*@
+
 @{
     ViewData["Title"] = "Comment";
 }
+
+@model Comment;
 <html>
     <head>
         <title>Add a Comment!</title>
     </head>
     <body>
+        @*Second Form Tag Helper*@
         <h3>Comment for <em>@Model</em></h3>
         <form method="post">
-            <label for="story">Comment Title</label>
+
+            <label>Comment Title</label>
+            @*<label for="story">Comment Title</label>*@
             <br />
-            <input name="story" /><br />
-            <textarea for="commentText">Comment</textarea>
+            <input asp-for="AStoriesComments" /><br />
+
+            <span asp-validation-for="AStoriesComments"></span>            @*<----- Third Validation Tag Helper*@
+            @*<textarea for="commentText">Comment</textarea>*@
             <br />
             <input type="submit" value="Submit Comment" />
 

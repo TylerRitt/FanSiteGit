@@ -38,7 +38,6 @@ C:\Users\Tyler\Desktop\FanSiteGit\FanSite\FanSite\FanSite\bin\Debug\netcoreapp2.
 C:\Users\Tyler\Desktop\FanSiteGit\FanSite\FanSite\FanSite\bin\Debug\netcoreapp2.1\FanSite.pdb
 C:\Users\Tyler\Desktop\FanSiteGit\FanSite\FanSite\FanSite\bin\Debug\netcoreapp2.1\FanSite.Views.dll
 C:\Users\Tyler\Desktop\FanSiteGit\FanSite\FanSite\FanSite\bin\Debug\netcoreapp2.1\FanSite.Views.pdb
-C:\Users\Tyler\Desktop\FanSiteGit\FanSite\FanSite\FanSite\obj\Debug\netcoreapp2.1\FanSite.csprojAssemblyReference.cache
 C:\Users\Tyler\Desktop\FanSiteGit\FanSite\FanSite\FanSite\obj\Debug\netcoreapp2.1\FanSite.csproj.CoreCompileInputs.cache
 C:\Users\Tyler\Desktop\FanSiteGit\FanSite\FanSite\FanSite\obj\Debug\netcoreapp2.1\FanSite.RazorAssemblyInfo.cache
 C:\Users\Tyler\Desktop\FanSiteGit\FanSite\FanSite\FanSite\obj\Debug\netcoreapp2.1\FanSite.RazorAssemblyInfo.cs
@@ -67,3 +66,6 @@ C:\Users\Tyler\Desktop\FanSiteGit\FanSite\FanSite\FanSite\obj\Debug\netcoreapp2.
 C:\Users\Tyler\Desktop\FanSiteGit\FanSite\FanSite\FanSite\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
 C:\Users\Tyler\Desktop\FanSiteGit\FanSite\FanSite\FanSite\obj\Debug\netcoreapp2.1\Razor\Views\Stories\AddComment.g.cshtml.cs
 C:\Users\Tyler\Desktop\FanSiteGit\FanSite\FanSite\FanSite\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+C:\Users\Tyler\Desktop\FanSiteGit\FanSite\FanSite\FanSite\obj\Debug\netcoreapp2.1\FanSite.csprojAssemblyReference.cache
+C:\Users\Tyler\Desktop\FanSiteGit\FanSite\FanSite\FanSite\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CustomLayout.g.cshtml.cs
+C:\Users\Tyler\Desktop\FanSiteGit\FanSite\FanSite\FanSite\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CustomLayout2.g.cshtml.cs

@@ -1,0 +1,6 @@
+ViewBags are in _CustomLayout and Stories Controller.
+ViewData is in stories controller/addstory view
+
+First Form Tag Helper is in Addstory view along with two other tag helpers.
+
+Second Form Tag Helper is in Addcomment view along with one other tag helper.

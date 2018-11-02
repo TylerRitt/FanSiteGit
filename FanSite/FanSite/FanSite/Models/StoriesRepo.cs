@@ -28,8 +28,6 @@ namespace FanSite.Models
             return story;
         }
 
-
-
         static void AddData()
         {
             Stories story = new Stories()
@@ -54,8 +52,6 @@ namespace FanSite.Models
 
             Stories.Add(story);
 
-
-
             Comment comment = new Comment()
             {
                 AStoriesComments = "Super generic comment"
@@ -68,9 +64,9 @@ namespace FanSite.Models
                 AStoriesComments = "A Random Comment"
             };
 
-
             story.Comments.Add(newComment);
 
+            
         }
 
     }

@@ -17,7 +17,7 @@ namespace FanSite.Controllers
             story.Sort((s1, s2) => string.Compare(s1.Name, s2.Name, StringComparison.Ordinal));
             // view bag one
             ViewBag.newestStory = story[story.Count - 1].Name;
-            // my view data for lab3
+            // another viewdata
             ViewData["StoriesCount"] = story.Count;
 
             return View(story);

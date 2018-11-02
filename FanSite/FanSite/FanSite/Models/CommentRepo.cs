@@ -29,10 +29,10 @@ namespace FanSite.Models
 
             comment = new Comment()
             {
-                AStoriesComments = "Some comments and stuff"
+                AStoriesComments = "Some Random Comment"
             };
 
-            comment.Comments.Add(comment);       
+            comment.Comments.Add(comment);         
         }
     }
 }
