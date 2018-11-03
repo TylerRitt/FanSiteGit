@@ -1,4 +1,4 @@
-ViewBags are in _CustomLayout and Stories Controller.
+ViewBags are in _CustomLayout, _CustomLayout2, Home/Index and Stories/Index
 ViewData is in stories controller/addstory view
 
 First Form Tag Helper is in Addstory view along with two other tag helpers.
