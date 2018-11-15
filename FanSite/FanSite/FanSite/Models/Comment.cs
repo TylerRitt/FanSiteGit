@@ -12,7 +12,7 @@ namespace FanSite.Models
         // property for comment's text
         public string AStoriesComments { get; set; }
 
-        public List<Comment> Comments { get { return comment; } }
+        public ICollection<Comment> Comments { get { return comment; } }
 
 
 

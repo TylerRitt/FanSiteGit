@@ -74,7 +74,7 @@ using FanSite.Models;
             WriteLiteral("<html>\r\n    ");
             EndContext();
             BeginContext(96, 58, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3b1376b855854d5aaea7c8a792db5f70", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "53593bb2437d44d39cdeb792e5c0e620", async() => {
                 BeginContext(102, 45, true);
                 WriteLiteral("\r\n        <title>Add a Comment!</title>\r\n    ");
                 EndContext();
@@ -94,7 +94,7 @@ using FanSite.Models;
             WriteLiteral("\r\n    ");
             EndContext();
             BeginContext(160, 589, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b94c6cbf948d46fa99865e9366bc8969", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8521541614164ba6a43f6d9ee8417984", async() => {
                 BeginContext(166, 2, true);
                 WriteLiteral("\r\n");
                 EndContext();
@@ -112,7 +112,7 @@ using FanSite.Models;
                 WriteLiteral("</em></h3>\r\n        ");
                 EndContext();
                 BeginContext(258, 478, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1164ec023bdf4695bcce91cc9906bacb", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5d5a51c4e9e64f02b633a6952b35cadb", async() => {
                     BeginContext(278, 46, true);
                     WriteLiteral("\r\n\r\n            <label>Comment Title</label>\r\n");
                     EndContext();
@@ -120,7 +120,7 @@ using FanSite.Models;
                     WriteLiteral("            <br />\r\n            ");
                     EndContext();
                     BeginContext(414, 36, false);
-                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "18a9a8917f5b43bdb3a0a7eb8a71ae2f", async() => {
+                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "e6f5b05990654d2d84fa04ce79db6841", async() => {
                     }
                     );
                     __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
@@ -143,7 +143,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                     WriteLiteral("<br />\r\n\r\n            ");
                     EndContext();
                     BeginContext(472, 51, false);
-                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("span", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f8347ebb5ffc4e6f93abd4b91be08869", async() => {
+                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("span", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1e77aa9c0eb94bcabdc24bc6230711ad", async() => {
                     }
                     );
                     __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.ValidationMessageTagHelper>();

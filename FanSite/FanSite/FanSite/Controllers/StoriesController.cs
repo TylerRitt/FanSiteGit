@@ -4,12 +4,19 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using FanSite.Models;
+using FanSite.Repository;
 
 
 namespace FanSite.Controllers
 {
     public class StoriesController : Controller
     {
+        IStoryRepository repo;
+        public StoriesController(IStoryRepository r)
+        {
+            repo = r; 
+        }
+
         public IActionResult Index()
         {
             List<Stories> story = StoriesRepo.Stories;

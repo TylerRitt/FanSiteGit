@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Razor.TagHelpers;
 
 namespace FanSite.TagHelpers
 {
+
+    // Custom Tag Helper
     public class EmailTagHelper : TagHelper
     {
         private const string Domain = "contoso.com";

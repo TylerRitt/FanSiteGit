@@ -5,7 +5,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Razor.TagHelpers;
 namespace FanSite.TagHelpers
 {
-    [HtmlTargetElement(Attributes = "repeat-content")]
+    // My try and making a "Custom" Tag Helper
+    /*[HtmlTargetElement(Attributes = "repeat-content")]
     public class RepeatSomething : TagHelper
     {
         [HtmlAttributeName("repeat-content")]
@@ -25,5 +26,5 @@ namespace FanSite.TagHelpers
         }
 
 
-    }
+    }*/ 
 }

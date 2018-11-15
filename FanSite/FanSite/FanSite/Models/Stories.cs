@@ -16,8 +16,8 @@ namespace FanSite.Models
 
         //public string AStoriesComments { get; set; }
 
-        public List<Stories> SavedStories { get { return story; } }
-        public List<Comment> Comments { get { return comments; } }
+        public ICollection<Stories> SavedStories { get { return story; } }
+        public ICollection<Comment> Comments { get { return comments; } }
 
     }
 }
